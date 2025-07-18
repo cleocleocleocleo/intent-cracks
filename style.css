@@ -1,6 +1,11 @@
+@font-face {
+  font-family: 'Minecraftia';
+  src: url('fonts/Minecraftia.ttf') format('truetype');
+}
+
 body {
   margin: 0;
-  font-family: 'Segoe UI', sans-serif;
+  font-family: 'Minecraftia', sans-serif;
   background-color: #1e1e1e;
   color: #f0f0f0;
   padding: 40px;
@@ -13,15 +18,29 @@ body {
 }
 
 h1 {
-  color: #00ff99;
   font-size: 2.8em;
+  color: #00ff99;
   margin-bottom: 0.2em;
+  letter-spacing: 1px;
+}
+
+h2 {
+  font-size: 2em;
+  margin: 1.2em 0 0.5em;
+  color: #ffffff;
+  letter-spacing: 1px;
+}
+
+p {
+  font-size: 1em;
+  color: #ccc;
+  margin-bottom: 1em;
 }
 
 .tagline {
-  color: #ccc;
   font-size: 1.2em;
   margin-bottom: 2em;
+  color: #aaa;
 }
 
 .client {
